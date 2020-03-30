@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center_horizontal"
+            android:text="."
+            android:textSize="81sp" />
+
+        <TextView
+            android:id="@+id/tv01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center|top"
+            android:text="."
+            android:textSize="81sp" />
+
+        <TextView
+            android:id="@+id/tv02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center|top"
+            android:text=" "
+            android:textSize="81sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center|top"
+            android:text="."
+            android:textSize="81sp" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center|top"
+            android:text="."
+            android:textSize="81sp" />
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center|top"
+            android:text="."
+            android:textSize="81sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center|top"
+            android:text="."
+            android:textSize="81sp" />
+
+        <TextView
+            android:id="@+id/tv21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center|top"
+            android:text="."
+            android:textSize="81sp" />
+
+        <TextView
+            android:id="@+id/tv22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="@color/colorAccent"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:freezesText="true"
+            android:gravity="center|top"
+            android:text="X"
+            android:textSize="81sp" />
+    </TableRow>
+</TableLayout>

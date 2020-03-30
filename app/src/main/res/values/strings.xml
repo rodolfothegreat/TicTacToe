@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="nought">O</string>
+    <string name="cross">X</string>
+    <string name="empty"> </string>
+    <string name="new_game">New Game</string>
+</resources>
